@@ -1,0 +1,39 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bycyber18/anexos-backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bycyber18/anexos-backend/issues"
+  },
+  "homepage": "https://github.com/bycyber18/anexos-backend#readme",
+  "description": "",
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "bcryptjs": "^3.0.3",
+    "cors": "^2.8.6",
+    "docxtemplater": "^3.67.6",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3",
+    "mongodb": "^7.0.0",
+    "mongoose": "^9.1.5",
+    "multer": "^2.0.2",
+    "pdf2json": "^4.0.2",
+    "pizzip": "^3.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^25.2.0",
+    "nodemon": "^3.1.11"
+  }
+}
